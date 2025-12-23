@@ -5,7 +5,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Sidebar from './Componet/Sidebar.jsx';
 import MobileHeader from './Componet/MobileHeader.jsx';
 import HomePage from './Page/HomePage.jsx';
-import SnippetsPage from './page/SnippetsPage.jsx';
+import SnippetsPage from './Page/SnippetsPage.jsx';
 import ProjectsPage from './Page/ProjectsPage.jsx';
 import SkillsPage from './Page/SkillsPage.jsx';
 function App() {
