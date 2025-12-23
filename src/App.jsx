@@ -2,15 +2,15 @@
 
 import React, { useState } from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Sidebar from './Componet/Sidebar';
-import MobileHeader from './Componet/MobileHeader';
-import HomePage from './page/HomePage';
-import TrendingPage from './page/TrendingPage';
-import SnippetsPage from './page/SnippetsPage';
-import VideosPage from './page/VideosPage';
-import ProjectCard from './Componet/ProjectCard';
-import ProjectsPage from './page/ProjectsPage';
-import SkillsPage from './Page/SkillsPage';
+import Sidebar from './Componet/Sidebar.jsx';
+import MobileHeader from './Componet/MobileHeader.jsx';
+import HomePage from './Page/HomePage.jsx';
+import TrendingPage from './page/TrendingPage.jsx';
+import SnippetsPage from './page/SnippetsPage.jsx';
+import VideosPage from './page/VideosPage.jsx';
+import ProjectCard from './Componet/ProjectCard.jsx';
+import ProjectsPage from './page/ProjectsPage.jsx';
+import SkillsPage from './Page/SkillsPage.jsx';
 function App() {
   const [sidebarOpen, setSidebarOpen] = useState(false);
   const toggleSidebar = () => setSidebarOpen(!sidebarOpen);
